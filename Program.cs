@@ -12,9 +12,25 @@ namespace sdb_Tool
     {
         static void Main(string[] args)
         {
-            Extractor("00000192.sdb");
+            FileAttributes attr = File.GetAttributes(args[0]);
+            bool isDir = false;
+            if ((attr & FileAttributes.Directory) == FileAttributes.Directory)
+                isDir = true;
+            if (!isDir)
+            {
+                Extractor(Path.GetFileName(args[0]));
+                return;
+            }
         }
 
+        public static void Build(string inputDirectory)
+        {
+            if (!File.Exists(inputDirectory + "\\unkTable.txt"))
+            {
+                Console.WriteLine("Трутутым");
+                return;
+            }
+        }
             public static void Extractor(string sdbFile)
             { 
             var reader = new BinaryReader(File.OpenRead(sdbFile));
