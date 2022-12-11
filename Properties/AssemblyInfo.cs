@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("sdb_Tool")]
+[assembly: AssemblyTitle("sdbToolSharp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("sdb_Tool")]
+[assembly: AssemblyProduct("sdbToolSharp")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("f302bd6f-ef0b-412f-ade6-f760d74260a4")]
+[assembly: Guid("5acc3ad3-f0d7-46ca-b592-fd6575f6961f")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sdbToolSharp", "sdbToolSharp.csproj", "{5ACC3AD3-F0D7-46CA-B592-FD6575F6961F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ACC3AD3-F0D7-46CA-B592-FD6575F6961F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACC3AD3-F0D7-46CA-B592-FD6575F6961F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACC3AD3-F0D7-46CA-B592-FD6575F6961F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACC3AD3-F0D7-46CA-B592-FD6575F6961F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7028F225-629D-4C08-B2D1-A7DFEA20910A}
+	EndGlobalSection
+EndGlobal
