@@ -1,2 +1,2 @@
-# Tool for editing gust .sdb
-It can extract or repack .sdb files into Attack On Titan(1\2).
+# Tool for editing gust .sdb(scr)
+It can extract or repack .sdb(scr) files into Attack On Titan(1\2).
